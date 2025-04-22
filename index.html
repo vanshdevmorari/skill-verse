@@ -1,26 +1,61 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Skill Verse</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Verse - Home</title>
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to Skill Verse</h1>
-    <nav>
-      <a href="login.html">Login</a>
-      <a href="signup.html">Sign Up</a>
-    </nav>
-  </header>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-left">
+      <a href="index.html" class="logo">Skill Verse</a>
+      <a href="courses.html">Courses</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="quiz.html">Smart Quiz</a>
+    </div>
+    <div class="nav-right">
+      <button class="btn" onclick="window.location.href='login.html'">Login</button>
+      <button class="btn" onclick="window.location.href='signup.html'">Sign Up</button>
+    </div>
+  </nav>
 
-  <main>
-    <section>
-      <h2>Your Gateway to Smart Learning</h2>
-      <p>Courses from 8th to 12th with Gamification, Quizzes, Resume Builder and more!</p>
-      <a href="signup.html" class="btn">Get Started</a>
-    </section>
-  </main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Unlock Your Learning Potential</h1>
+      <p>Explore interactive courses, quizzes, and more to elevate your skills across all subjects.</p>
+      <a href="courses.html" class="btn">Explore Courses</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <h2>What We Offer</h2>
+    <div class="feature-cards">
+      <div class="feature-card">
+        <h3>Interactive Courses</h3>
+        <p>Engaging lessons for Class 8 to 12, covering all streams.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Smart Quizzes</h3>
+        <p>Test your knowledge with quizzes designed to improve learning.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Resume Builder</h3>
+        <p>Create a professional resume with ease using our builder tool.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Skill Verse | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

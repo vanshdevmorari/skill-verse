@@ -6,14 +6,25 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h2>Smart Quiz</h2>
-  <div id="quiz-container">
-    <p>Q1: What is the capital of India?</p>
-    <button>New Delhi</button>
-    <button>Mumbai</button>
-    <button>Chennai</button>
-    <script src="js/quiz.js"></script>
+  <nav>
+    <div class="nav-left">
+      <a href="index.html">Skill Verse</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="quiz.html">Smart Quiz</a>
+    </div>
+    <div class="nav-right">
+      <button class="toggle-btn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    </div>
+  </nav>
 
+  <h1>Smart Quiz</h1>
+  <div id="quiz-box">
+    <h2 id="question"></h2>
+    <div id="options" class="quiz-options"></div>
+    <button onclick="exitQuiz()">Exit Quiz</button>
   </div>
+
+  <script src="js/quiz.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

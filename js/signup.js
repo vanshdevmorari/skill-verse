@@ -14,4 +14,3 @@ document.getElementById("signupForm").addEventListener("submit", function(e) {
     alert("Signup successful! You can now log in.");
     window.location.href = "login.html";  // Redirect to login page
   });
-  

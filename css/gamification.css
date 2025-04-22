@@ -1,0 +1,18 @@
+body {
+    background: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .gamify-section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  }
+  
+  .gamify-section h2 {
+    color: #2ecc71;
+  }
+  

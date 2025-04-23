@@ -1,13 +1,12 @@
 body {
-    background-color: #fdf6e3;
-    font-family: 'Segoe UI', sans-serif;
-  }
-  
-  #certificateOutput {
-    margin-top: 20px;
-    background: #fff3cd;
-    padding: 20px;
-    border: 2px dashed #ffc107;
-    border-radius: 10px;
-  }
-  
+  background-color: #fdf6e3;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#certificateOutput {
+  margin-top: 20px;
+  background: #fff3cd;
+  padding: 20px;
+  border: 2px dashed #ffc107;
+  border-radius: 10px;
+}
